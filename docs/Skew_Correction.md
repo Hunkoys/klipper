@@ -51,6 +51,8 @@ You may also add measurements for XZ and YZ to the gcode:
 SET_SKEW XY=140.4,142.8,99.8 XZ=141.6,141.4,99.8 YZ=142.4,140.5,99.5
 ```
 
+![skew_vertical_orientation](img/skew_vertical_orientation.png)
+
 The `[skew_correction]` module also supports profile management in a manner
 similar to `[bed_mesh]`.  After setting skew using the `SET_SKEW` gcode,
 you may use the `SKEW_PROFILE` gcode to save it:
